@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Electron Ion Collider Simulations</h1>
+    <h2>
+        Victor Tumbiolo vtumbiolo2022@my.fit.edu <br>
+        John Hernandez jhernandez2019@my.fit.edu <br>
+        Dr. Hohlmann Hohlmann@fit.edu
+    </h2>
+
+    <h3> Plan</h3>
+
+    <h4>Title: Electron Ion Collision Simulations</h4>
+    <p>
+
+        Victor Tumbiolo vtumbiolo2022@my.fit.edu <br>
+        John Hernandez jhernandez2019@my.fit.edu <br>
+        Dr. Hohlmann Hohlmann@fit.edu<br>
+        <br>
+        Client: Pietro Lapozzuto, Dr. Hohlmann's PhD student who I am assisting with the Simulations.<br>
+        Pietro is building a larger project to be used in the Hadron Collider in NYC.<br>
+        <br>
+        Dates: We meet every Monday Wednesday and Friday to work together in the lab. Additionally,<br>
+        every monday night, we meet to discuss the project as a group. We talk about what we have achieved,<br>
+        shortcomings, and mention if we need help with anything specific.<br>
+        <br>
+        This could potentially discover new particles in physics. Additionally, I am interested in working with<br>
+        simulations as I've never done that before. Lastly, this serves as training ground before Pietro <br>
+        builds his detector with physical parts. <br>
+        <br>
+        The plan is to study the quarks after the collision, <br>
+        which I will detect by simulating the detector. Additionally, we want to detect and study<br>
+        momentum properties of muons. <br>
+        <br>
+        Specific Key features: Detects various particles, simulates collisions, particle tracking<br>
+        <br>
+        While I am interested in muons, this software will help other physics students simulate particle <br>
+        detection on various particle that they may be interested in. We plan to use a Monte Carlo <br>
+        approach, which involves random sampling to model the statistical behavior of particle <br>
+        interactions. This allows us to study the distrobution of particles produced.<br>
+        <br>
+        Additionally, the collision simulations can also be applied to other particles. The software will <br>
+        handle any calculations needed in simulating the collision. The software will also visually display<br>
+        the collision with options to slow down, and pause the collision to study it better.<br>
+        <br>
+        Particle tracking allows us to reconstruct events that occured during the collision.<br>
+        By determining the path of the particles as they travel through the detector, we can gain<br>
+        information about their momentum, charge, and energy. <br>
+        <br>
+        The largerst technical challenge is that I have never worked in the Electrion Ion Collision (EIC)<br>
+        enviroment before. This is a command line interface with a large directory system that I will have<br>
+        to learn to use key features of the software. <br>
+        <br>
+        This uses C++ and a library called root, as well as few odd libraries,<br>
+        so I will have to learn these. Root I believe, is essentially matplotlib for C++. I learned <br>
+        java as my main language, and have only written 2 programs in C++, and I have never used a <br>
+        non-standard library.<br>
+        <br>
+        Also, there is something called the geomtry which I will have to learn how to use. This is involved with <br>
+        defining shapes, and positions of objects in the simulation. The geometries regarding the detector,<br>
+        and the arangement of the detector components are essential. <br>
+        <br>
+        Milestone 1:<br>
+        The tools have already been selected, EIC enviroment, geomtries, C++, root, singularity, linux.<br>
+        This month, I am learning the EIC enviroment, geomtries and C++. <br>
+        I will be able to run a very basic simulation enviroment, but I wont be simulating anything yet.<br>
+        I plan to work with Pietro to create a Requiernment, and Design document, as well as a test plan.<br>
+        Requiernment may be: Must be able to run a simulation that simulates a particle collision using<br>
+        EIC software, and model the simulation using geometries. <br>
+        Eventually, we will have listed very specfic requierments.<br>
+        The design may vary at different points throughout the project. I will work closly with pietro to<br>
+        come up with the optimal design, and create a document for it. <br>
+        Testing again I will work with Pietro. Testing may be a blackbox approach where we run the simulation,<br> 
+        and either it does or doesn't work. Perhaps some things work and some don't. We will write specific<br>
+        test cases. <br>
+        <br>
+        Milestone 2:<br>
+        I plan to implement the geometries of the simulation for milestone 2. This may involve the shapes<br>
+        of the particles, the tunnel for their path, and parts for the detector. Testing may involve seeing<br>
+        if the detector can detect the collisions and if the particles interact the intended way based on <br>
+        their intended geometries. However, we are not testing to see if we can detect specific things, such <br>
+        as properties of momentum. Right now, we just want to detect the collision itself. <br>
+        <br>
+        Milestone 3: 
+        Here we plan to test the detector more. We may model some more specific parts for the detector, <br>
+        that would be respnsible for detecting the properties we are interested in. The main thing we care<br>
+        about is momentum, but we also may look at intertia, kinetic energy, impulse and vector nature. <br>
+        These are related to momentum, and we may want to study how they change over time. We will also<br>
+        want to see if we can correctly track the particle throughout the simulation. <br>
+        <br>
+        <!-- Matrix
+        <br>
+        Task_____________________| Victor | John | <br>
+        Compare Tech tools______|    0%  | 100% |<br>
+        Hello world Demos_______|   30%  |  70% |<br>
+        Resolve Tech Challgnes__|  100%  |   0% |<br>
+        Select Collab tools_______|   50%  |  50% |<br>
+        Requiernment Doc_______|   70%  |  30% |<br>
+        Design Doc_______________|   70%  |  30% |<br>
+        Test Plan_________________|   80%  |  20% |<br> -->
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Task</th>
+                    <th>Victor</th>
+                    <th>John</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Compare Tech tools</td>
+                    <td>0%</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>Hello world Demos</td>
+                    <td>30%</td>
+                    <td>70%</td>
+                </tr>
+                <tr>
+                    <td>Resolve Tech Challenges</td>
+                    <td>100%</td>
+                    <td>0%</td>
+                </tr>
+                <tr>
+                    <td>Select Collab tools</td>
+                    <td>50%</td>
+                    <td>50%</td>
+                </tr>
+                <tr>
+                    <td>Requirement Doc</td>
+                    <td>70%</td>
+                    <td>30%</td>
+                </tr>
+                <tr>
+                    <td>Design Doc</td>
+                    <td>70%</td>
+                    <td>30%</td>
+                </tr>
+                <tr>
+                    <td>Test Plan</td>
+                    <td>80%</td>
+                    <td>20%</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+    </p>
+
+    
+    
+</body>
+</html>
